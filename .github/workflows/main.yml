@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push CorvusCorvaly:$HF_TOKEN@https://huggingface.co/spaces/CorvusCorvaly/WLK main
+        run: git push https://huggingface.co/spaces/Corvuscorvaly/WLK main
